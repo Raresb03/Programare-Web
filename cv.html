@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="resumeTitle">Bolovan Rares CV</title>
+    <link rel="stylesheet" type="text/css" href="./cv.css">
+
+</head>
+<body>
+    <header>
+        <h1 class="fadeIn">Bolovan Rares-Constantin</h1>
+        <a href="https://www.depozitpiatra.ro/produs/bolovani-decorativi/" target="_blank"><img src="./Goga-260.jpg" alt="Bolovan Rares" width="200" class="fadeIn rotate" ></a>
+    </header>
+    <nav>
+         <ul>    
+        <li><a href="#Despre-mine" class="txt_hover">Despre mine</a></li>
+        <li><a href="#Education" class="txt_hover">Education</a></li>
+        <li><a href="#Work" class="txt_hover">Work</a></li>
+        <li><a href="#Skills" class="txt_hover">Skills</a></li>
+        <li><a href="#Hobby-uri" class="txt_hover">Hobby-uri</a></li>
+        <li><a href="#Contact" class="txt_hover">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside>
+            <div id="Despre-mine" class="fadeIn">
+            <h3>Despre mine</h3>
+            <p style="text-align: left;">  Sunt o persoana rabdatoare,
+                muncitoare, pasionata de
+                domeniul IT, lucrul in echipa e
+                punctul meu forte, intelegatoare.
+                </p>
+            <p style="text-align: left;">   Am lucrat in diverse domenii, imi
+                place sa invat cat mai mult,
+                dovedindu-se si prin
+                performantele mele scolare din
+                toti ani pana acuma si sa imi depasesc limitele</p>
+            </div>
+            <div id="Limbi" class="fadeIn">
+                <h3>
+                    Limbi straine
+                </h3>
+                <ol>
+                    <li>Engleza</li>
+                    <li>Franceza</li>
+                    <li>Chineza</li>
+                </ol>
+            </div>
+            <div id="Permis" class="fadeIn">
+                <h3>Permis de conducere</h3>
+                <p>Categoria B</p>
+            </div>
+            <div id="Detalii" class="fadeIn">
+                <h1>Detalii personale</h1>
+                <h3>Data nasterii</h3>
+                <p>05/29/2003</p>
+                <h3>Nationalitate</h3>
+                <p>Romana</p>
+                <h3>Stare civila</h3>
+                <p>Singur</p>
+            </div>
+        </aside>
+    <main id="main">
+        <section>
+            <h2>Schimba titlul</h2>
+            <input type="text" id="titleInput" placeholder="Enter new title" class="fadeIn">
+            <button id="updateTitleButton" class="txt_hover fadeIn">Update Title</button>
+        </section>
+        <section id="Education" class="fadeIn">
+            <h2>Education</h2>
+            <p><img src="./education.jpg" alt="Education" class="icon">Universitatea "Lucian Blaga" Sibiu, Facultatea de Inginerie, Specializare Calculatoare</p>
+            <p>2022-2026</p>
+        </section>
+        <section id="Work" class="fadeIn">
+            <h2>Work Experience</h2>
+            <p><img src="./work.jpg" alt="Work Experience" class="icon">Microsoft, Senior Developer</p>
+            <p>03/18/2020 - 05/20/2023</p>
+        </section>
+        <button id="togglesection" class="fadeIn txt_hover">Hide Experience</button>
+        <section id="Skills" class="fadeIn">
+            <h2>Skills</h2>
+            <canvas id="SkillCanvas" width="600" height="350"></canvas>
+        </section>
+        <section id="Hobby-uri" class="fadeIn"> 
+            <h2>Hobby-uri</h2>
+            <p>Dansurile, programarea, matematica, calatoriile, gatitul</p>
+        </section>
+        <section id="Contact" class="fadeIn">
+            <h2>Contact Information</h2>
+            <div class="contact">
+                <img src="./mail.png" alt="Email" class="icon" >
+                <p>Email: <a href="mailto:bolovan.rares@yahoo.com">bolovan.rares@yahoo.com</a></p>
+            </div>
+            <div class="contact">
+                <img src="./phone.png" alt="Phone" class="icon">
+                <p>Phone: <a href="tel:+40758270804">+40758270804</a></p>
+            </div>
+            <div class="contact">
+                <img src="./mail.png" alt="Adress" class="icon" >
+                <p>Adress <a href="https://www.google.com/maps/place/Strada+%C8%98tefan+cel+Mare+151,+Sibiu+550234/@45.7901889,24.1822762,17z/data=!3m1!4b1!4m6!3m5!1s0x474c676c2a3d3ac5:0x91f330f96d334a17!8m2!3d45.7901852!4d24.1848511!16s%2Fg%2F11swc92jrd?entry=ttu" target="_blank">strada Stefan cel Mare nr.151A, bloc 6,
+                    scara B, etaj 1, apartament 17., Sibiu,
+                    550321, Romania</a></p>
+            </div>
+            <div class="contact">
+                <img src="./linkedin.png" alt="LinkedIn" class="icon">
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/rares-constantin-bolovan-32362a27a/" target="_blank">linkedin.com/bolovan-rares-constantin</a></p>
+            </div>
+        </section>
+        <button id="ChangeBackgroundColor" class="fadeIn txt_hover">Change Background Color</button>
+    </main>
+</div>    
+
+    <div class="vertical-line"></div>
+    <footer>
+        <p class="fadeIn">&copy; 2024 Bolovan Rares-Constantin</p>
+    </footer>
+    <script src="./cv.js"></script>
+</body>
+</html>

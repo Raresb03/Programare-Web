@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b0094;
+}
+header {
+    background-color: #1b0094;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+main {
+    background-color: #ffffff;
+    margin: 1px;
+    padding: 1px;
+    border-radius: 5px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1b0094;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+section {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+h2 {
+    color: #1b0094;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.contact {
+    display: flex;
+    align-items: center;
+}
+footer {
+    background-color: #1b0094;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 20%; 
+    text-align: center;
+    border-left: 1px solid #1b0094;
+    background-color:#414141;
+    color: white;
+}
+main {
+    width: 80%; 
+    background-color: #fff; 
+}
+.vertical-line {
+    border-left: 4px solid #070707;
+    height: 126.45vh;
+    position:absolute;
+    left: 19.8%;
+    top: 47.8%;
+    transform: translateX(50%);
+}
+.txt_hover:hover {
+    color: #0dcdfd;
+    text-decoration: underline;
+}
+    
+#ChangeBackgroundColor{
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #1b0094;
+    color: #fff;
+    border: #0dcdfd;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 600px;
+}
+
+#togglesection{
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #1b0094;
+    color: #fff;
+    border: #0dcdfd;
+    border:10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px;
+}
+#titleInput{
+    text-align: center;
+}
+#updateTitleButton{
+    background-color: #1b0094;
+    color:#fff;
+    cursor: pointer;
+}
+aside div{
+    margin:7.5px;
+}
+.fadeIn {
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes rotate {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+    }
+.rotate {
+    animation: rotate 5s linear infinite;
+    }
+            
+
+        
